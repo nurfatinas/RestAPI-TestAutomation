@@ -9,6 +9,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.twoctwop.testAPI.TypiCodeTest"/>
+      <class name="cucumber.Options.TestRunner"/>
     </classes>
   </test> 
 </suite>

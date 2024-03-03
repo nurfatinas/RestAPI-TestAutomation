@@ -1,33 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-03T12:53:39 MYT" name="Suite" finished-at="2024-03-03T12:53:48 MYT" duration-ms="8957">
+  <suite started-at="2024-03-03T15:13:01 MYT" name="Suite" finished-at="2024-03-03T15:13:09 MYT" duration-ms="7115">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@179ece50]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-03T12:53:39 MYT" name="Test" finished-at="2024-03-03T12:53:48 MYT" duration-ms="8957">
+    <test started-at="2024-03-03T15:13:01 MYT" name="Test" finished-at="2024-03-03T15:13:09 MYT" duration-ms="7115">
       <class name="com.twoctwop.testAPI.TypiCodeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@3e694b3f]" started-at="2024-03-03T12:53:39 MYT" name="setup" finished-at="2024-03-03T12:53:40 MYT" duration-ms="1271" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@477b4cdf]" started-at="2024-03-03T15:13:02 MYT" name="setup" finished-at="2024-03-03T15:13:02 MYT" duration-ms="764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testGETCommentsWithId3()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@3e694b3f]" started-at="2024-03-03T12:53:40 MYT" name="testGETCommentsWithId3" finished-at="2024-03-03T12:53:45 MYT" duration-ms="5036" status="PASS">
+        <test-method signature="testGETCommentsWithId3()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@477b4cdf]" started-at="2024-03-03T15:13:02 MYT" name="testGETCommentsWithId3" finished-at="2024-03-03T15:13:05 MYT" duration-ms="2290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGETCommentsWithId3 -->
-        <test-method signature="testGETUsersWithId6()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@3e694b3f]" started-at="2024-03-03T12:53:45 MYT" name="testGETUsersWithId6" finished-at="2024-03-03T12:53:46 MYT" duration-ms="291" status="PASS">
+        <test-method signature="testGETUsersWithId6()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@477b4cdf]" started-at="2024-03-03T15:13:05 MYT" name="testGETUsersWithId6" finished-at="2024-03-03T15:13:05 MYT" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGETUsersWithId6 -->
-        <test-method signature="testPostCommentsWithJsonBody()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@3e694b3f]" started-at="2024-03-03T12:53:46 MYT" name="testPostCommentsWithJsonBody" finished-at="2024-03-03T12:53:47 MYT" duration-ms="1134" status="PASS">
+        <test-method signature="testPostCommentsWithJsonBody()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@477b4cdf]" started-at="2024-03-03T15:13:05 MYT" name="testPostCommentsWithJsonBody" finished-at="2024-03-03T15:13:06 MYT" duration-ms="917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostCommentsWithJsonBody -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@3e694b3f]" started-at="2024-03-03T12:53:47 MYT" name="tearDown" finished-at="2024-03-03T12:53:48 MYT" duration-ms="1132" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.twoctwop.testAPI.TypiCodeTest@477b4cdf]" started-at="2024-03-03T15:13:06 MYT" name="tearDown" finished-at="2024-03-03T15:13:06 MYT" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.twoctwop.testAPI.TypiCodeTest -->
+      <class name="cucumber.Options.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.Options.TestRunner@179ece50]" started-at="2024-03-03T15:13:06 MYT" name="setUpClass" finished-at="2024-03-03T15:13:06 MYT" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b598d05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@179ece50]" started-at="2024-03-03T15:13:06 MYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-03T15:13:07 MYT" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Retrieve comments with ID 3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Tests for Comments and Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@179ece50]" started-at="2024-03-03T15:13:07 MYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-03T15:13:08 MYT" duration-ms="1401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Post comments with JSON body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Tests for Comments and Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@179ece50]" started-at="2024-03-03T15:13:08 MYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-03T15:13:08 MYT" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Retrieve users with ID 6"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Tests for Comments and Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.Options.TestRunner@179ece50]" started-at="2024-03-03T15:13:08 MYT" name="tearDownClass" finished-at="2024-03-03T15:13:09 MYT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.Options.TestRunner -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

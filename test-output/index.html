@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,21 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="cucumber.Options.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Post comments with JSON body&quot;, &quot;API Tests for Comments and Users&quot;)">runScenario("Post comments with JSON body", "API Tests for Comments and Users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="cucumber.Options.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Retrieve comments with ID 3&quot;, &quot;API Tests for Comments and Users&quot;)">runScenario("Retrieve comments with ID 3", "API Tests for Comments and Users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="cucumber.Options.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Retrieve users with ID 6&quot;, &quot;API Tests for Comments and Users&quot;)">runScenario("Retrieve users with ID 6", "API Tests for Comments and Users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.twoctwop.testAPI.TypiCodeTest" class="method navigator-link" hash-for-method="testGETCommentsWithId3">testGETCommentsWithId3</a> <!-- method navigator-link -->
@@ -128,6 +143,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cucumber.Options.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Post comments with JSON body&quot;, &quot;API Tests for Comments and Users&quot;)">
+                  </a> <!-- runScenario("Post comments with JSON body", "API Tests for Comments and Users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Post comments with JSON body","API Tests for Comments and Users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Retrieve comments with ID 3&quot;, &quot;API Tests for Comments and Users&quot;)">
+                  </a> <!-- runScenario("Retrieve comments with ID 3", "API Tests for Comments and Users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Retrieve comments with ID 3","API Tests for Comments and Users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Retrieve users with ID 6&quot;, &quot;API Tests for Comments and Users&quot;)">
+                  </a> <!-- runScenario("Retrieve users with ID 6", "API Tests for Comments and Users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Retrieve users with ID 6","API Tests for Comments and Users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -173,6 +226,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.twoctwop.testAPI.TypiCodeTest&quot;/&gt;
+      &lt;class name=&quot;cucumber.Options.TestRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -186,7 +240,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,6 +250,14 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -212,24 +274,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGETCommentsWithId3')
 data.setCell(0, 2, 'com.twoctwop.testAPI.TypiCodeTest')
-data.setCell(0, 3, 5036);
+data.setCell(0, 3, 2290);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testPostCommentsWithJsonBody')
-data.setCell(1, 2, 'com.twoctwop.testAPI.TypiCodeTest')
-data.setCell(1, 3, 1134);
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'cucumber.Options.TestRunner')
+data.setCell(1, 3, 1401);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testGETUsersWithId6')
+data.setCell(2, 1, 'testPostCommentsWithJsonBody')
 data.setCell(2, 2, 'com.twoctwop.testAPI.TypiCodeTest')
-data.setCell(2, 3, 291);
+data.setCell(2, 3, 917);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'cucumber.Options.TestRunner')
+data.setCell(3, 3, 367);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGETUsersWithId6')
+data.setCell(4, 2, 'com.twoctwop.testAPI.TypiCodeTest')
+data.setCell(4, 3, 228);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'cucumber.Options.TestRunner')
+data.setCell(5, 3, 204);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -262,19 +336,42 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testGETCommentsWithId3</span>
-                <span class="method-start">1288 ms</span>
+                <span class="method-start">780 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGETUsersWithId6</span>
-                <span class="method-start">6336 ms</span>
+                <span class="method-start">3080 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostCommentsWithJsonBody</span>
-                <span class="method-start">6632 ms</span>
+                <span class="method-start">3310 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7768 ms</span>
+                <span class="method-start">4229 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cucumber.Options.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@7b598d05)</span>
+                <span class="method-start">4577 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Retrieve comments with ID 3", "API Tests for Comments and Users")</span>
+                <span class="method-start">4852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Post comments with JSON body", "API Tests for Comments and Users")</span>
+                <span class="method-start">5224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Retrieve users with ID 6", "API Tests for Comments and Users")</span>
+                <span class="method-start">6627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">6835 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
