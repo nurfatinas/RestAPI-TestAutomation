@@ -8,7 +8,7 @@ import org.testng.Assert;
 import static io.restassured.RestAssured.given;
 import io.restassured.response.Response;
 
-public class TypiCodeTest extends BaseTest {
+public class TestAPI extends BaseTest {
 
     /**
      * Get comments with id=3 and verify response body’s “name” and email” values
