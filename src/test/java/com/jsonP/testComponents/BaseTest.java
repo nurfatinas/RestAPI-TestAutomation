@@ -1,4 +1,4 @@
-package com.twoctwop.testComponents;
+package com.jsonP.testComponents;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;

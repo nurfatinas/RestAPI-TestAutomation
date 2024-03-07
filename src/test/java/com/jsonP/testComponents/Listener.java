@@ -1,4 +1,4 @@
-package com.twoctwop.testComponents;
+package com.jsonP.testComponents;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;

@@ -1,8 +1,8 @@
-package com.twoctwop.testAPI;
+package com.jsonP.testAPI;
 
 import org.testng.annotations.Test;
 
-import com.twoctwop.testComponents.BaseTest;
+import com.jsonP.testComponents.BaseTest;
 
 import org.testng.Assert;
 import static io.restassured.RestAssured.given;
